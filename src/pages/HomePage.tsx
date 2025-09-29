@@ -188,7 +188,7 @@ const HomePage: FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <div className="container">
+        <div className="section-container">
           <div className="quick-links-grid">
             {quickLinks.map((link, index) => {
               const Icon = link.icon;
@@ -226,7 +226,7 @@ const HomePage: FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <div className="container">
+        <div className="section-container">
           <motion.div 
             className="section-header"
             initial={{ opacity: 0, y: 30 }}
@@ -265,7 +265,7 @@ const HomePage: FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <div className="container">
+        <div className="section-container">
           <motion.div 
             className="section-header"
             initial={{ opacity: 0, y: 30 }}
@@ -304,7 +304,7 @@ const HomePage: FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <div className="container">
+        <div className="section-container">
           <motion.div 
             className="section-header"
             initial={{ opacity: 0, y: 30 }}
